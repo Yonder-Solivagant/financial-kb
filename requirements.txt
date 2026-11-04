@@ -1,0 +1,8 @@
+requests
+python-dotenv
+truststore
+pymupdf
+pymupdf4llm
+numpy
+fastapi
+uvicorn[standard]

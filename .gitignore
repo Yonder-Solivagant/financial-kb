@@ -1,0 +1,16 @@
+# 派生文件与大文件不进仓库（都能用脚本重建）
+.venv/
+__pycache__/
+.env
+
+# 年报 PDF（8~40MB，从巨潮 cninfo 自动下载）
+data/
+
+# 抽取出的 Markdown（可由 PDF 重建）
+text/
+
+# 切块索引（16MB 派生文件，可重建）
+kb_index.json
+
+# 向量（60MB 派生文件，可重建）
+kb_emb.npy
